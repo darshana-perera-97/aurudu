@@ -1,9 +1,9 @@
-import LoadingSc from "./Design/LoadingSC/LoadingSc";
+import Design from "./Design/Design";
 
 function App() {
   return (
     <div>
-      <LoadingSc />
+      <Design />
     </div>
   );
 }
