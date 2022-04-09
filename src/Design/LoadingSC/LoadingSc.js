@@ -1,6 +1,6 @@
 import logo from "./sun.png";
 import "./LoadingSC.css";
-import {greetingTxt} from "../DataSheet"
+import {greetingTxt,windowHeight} from "../DataSheet"
 import React from "react";
 
 export default function LoadingSc() {

@@ -6,6 +6,7 @@ export default function TopImageSet() {
   return (
     <div className="hes">
       <TopBackground />
+      <p>as</p>
     </div>
   );
 }

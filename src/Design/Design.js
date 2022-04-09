@@ -6,7 +6,7 @@ export default function Design() {
   const [st, setSt] = useState(true);
   setTimeout(() => {
     setSt(false);
-  }, 4000);
+  }, 100);
   return (
     <div>
       {st && <LoadingSc />}
