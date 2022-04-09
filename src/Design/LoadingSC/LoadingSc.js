@@ -1,6 +1,6 @@
 import logo from "./sun.png";
 import "./LoadingSC.css";
-
+import {greetingTxt} from "../DataSheet"
 import React from "react";
 
 export default function LoadingSc() {
@@ -14,9 +14,10 @@ export default function LoadingSc() {
             fontFamily: "Noto Serif Sinhala",
             fontSize: "55px",
             margin: "50px",
+            
           }}
         >
-          සුභ නව වසරක් වේවා ! <br/> 2022
+          {greetingTxt}
         </p>
       </header>
     </div>
